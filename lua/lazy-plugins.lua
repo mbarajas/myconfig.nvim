@@ -23,29 +23,29 @@ require('lazy').setup({
   -- modular approach: using `require 'path/name'` will
   -- include a plugin definition from file lua/path/name.lua
 
-  require 'kickstart/plugins/gitsigns',
+  require 'kickstart/plugins/gitsigns', --Git integration for buffers
 
-  require 'kickstart/plugins/which-key',
+  require 'kickstart/plugins/which-key', -- Keybindings helper
 
-  require 'kickstart/plugins/telescope',
+  require 'kickstart/plugins/telescope', -- Fuzzy finder
 
-  require 'kickstart/plugins/lspconfig',
+  require 'kickstart/plugins/lspconfig', -- Language Server Protocol
 
-  require 'kickstart/plugins/conform',
+  require 'kickstart/plugins/conform', -- Linting and formatting
 
-  require 'kickstart/plugins/cmp',
+  require 'kickstart/plugins/cmp', -- Autocompletion
 
   --require 'kickstart/plugins/tokyonight',
 
-  require 'kickstart/plugins/todo-comments',
+  require 'kickstart/plugins/todo-comments', -- Highlight TODO, FIXME, etc.
 
-  require 'kickstart/plugins/mini',
+  require 'kickstart/plugins/mini', -- Minimap
 
-  require 'kickstart/plugins/treesitter',
+  require 'kickstart/plugins/treesitter', -- Syntax highlighting
 
-  require 'custom/plugins/ghcopilot',
+  require 'custom/plugins/ghcopilot', -- GitHub Copilot
 
-  require 'custom/plugins/colorscheme',
+  require 'custom/plugins/colorscheme', -- Colorscheme
 
   -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
