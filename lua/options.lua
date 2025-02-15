@@ -64,4 +64,20 @@ vim.opt.scrolloff = 10
 -- Enable termguicolors
 vim.opt.termguicolors = true
 
+vim.opt.background = 'dark'
+
+vim.opt.smartindent = true -- Makes indenting smart
+
+vim.opt.expandtab = true -- Use spaces instead of tabs
+
+vim.opt.shiftwidth = 2 -- Size of an indent
+
+vim.opt.tabstop = 8 -- Number of spaces tabs count for
+
+vim.opt.autoread = true -- Auto read file when changed outside of vim
+
+vim.opt.autoindent = true -- Good auto indent
+
+vim.opt.cindent = true -- Good C indent
+
 -- vim: ts=2 sts=2 sw=2 et
