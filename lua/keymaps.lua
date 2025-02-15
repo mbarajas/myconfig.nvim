@@ -45,4 +45,10 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+--Make adjusting split sizes easier
+vim.keymap.set('n', '<C-Left>', ':vertical resize +3<CR>', { desc = 'Decrease width of current window by 2 columns' })
+vim.keymap.set('n', '<C-Right>', ':vertical resize -3<CR>', { desc = 'Increase width of current window by 2 columns' })
+vim.keymap.set('n', '<C-Up>', ':resize +3<CR>', { desc = 'Decrease height of current window by 2 lines' })
+vim.keymap.set('n', '<C-Down>', ':resize -3<CR>', { desc = 'Increase height of current window by 2 lines' })
+
 -- vim: ts=2 sts=2 sw=2 et
