@@ -35,7 +35,7 @@ require('lazy').setup({
 
   require 'kickstart/plugins/cmp', -- Autocompletion
 
-  --require 'kickstart/plugins/tokyonight',
+  -- require 'kickstart/plugins/tokyonight',
 
   require 'kickstart/plugins/todo-comments', -- Highlight TODO, FIXME, etc.
 
@@ -47,9 +47,9 @@ require('lazy').setup({
 
   require 'custom/plugins/colorscheme', -- Colorscheme
 
-  --require 'custom/plugins/bufferline', -- Bufferline
+  require 'custom/plugins/bufferline', -- Bufferline
 
-  --require 'custom/plugins/lualine', -- Statusline
+  require 'custom/plugins/lualine', -- Statusline
 
   require 'custom/plugins/markview', -- Markdown preview
 
@@ -66,11 +66,11 @@ require('lazy').setup({
   --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
-  -- require 'kickstart.plugins.debug',
-  -- require 'kickstart.plugins.indent_line',
-  -- require 'kickstart.plugins.lint',
-  -- require 'kickstart.plugins.autopairs',
-  -- require 'kickstart.plugins.neo-tree',
+  require 'kickstart.plugins.debug', -- Debugging
+  require 'kickstart.plugins.indent_line', -- Indentation lines
+  require 'kickstart.plugins.lint', -- Linting
+  require 'kickstart.plugins.autopairs', -- Autopairs
+  require 'kickstart.plugins.neo-tree', -- File explorer
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
