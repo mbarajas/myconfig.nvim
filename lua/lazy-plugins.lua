@@ -45,7 +45,8 @@ require('lazy').setup({
 
   require 'custom/plugins/ghcopilot', -- GitHub Copilot
 
-  require 'custom/plugins/colorscheme', -- Colorscheme
+  --require 'custom/plugins/colorscheme', -- Colorscheme
+  require 'custom/plugins/catppuccin', -- Colorscheme
 
   require 'custom/plugins/bufferline', -- Bufferline
 
