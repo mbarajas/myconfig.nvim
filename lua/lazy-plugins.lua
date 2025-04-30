@@ -43,7 +43,8 @@ require('lazy').setup({
 
   require 'kickstart/plugins/treesitter', -- Syntax highlighting
 
-  require 'custom/plugins/ghcopilot', -- GitHub Copilot
+  --require 'custom/plugins/ghcopilot', -- GitHub Copilot
+  require 'custom/plugins/copilot', -- Copilot
 
   --require 'custom/plugins/colorscheme', -- Colorscheme
   require 'custom/plugins/catppuccin', -- Colorscheme
