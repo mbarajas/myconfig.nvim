@@ -35,7 +35,7 @@ require('lazy').setup({
 
   require 'kickstart/plugins/cmp', -- Autocompletion
 
-  -- require 'kickstart/plugins/tokyonight',
+  --require 'kickstart/plugins/tokyonight',
 
   require 'kickstart/plugins/todo-comments', -- Highlight TODO, FIXME, etc.
 
@@ -44,18 +44,18 @@ require('lazy').setup({
   require 'kickstart/plugins/treesitter', -- Syntax highlighting
 
   --require 'custom/plugins/ghcopilot', -- GitHub Copilot
-  require 'custom/plugins/copilot', -- Copilot
 
-  --require 'custom/plugins/colorscheme', -- Colorscheme
+  --require 'custom/plugins/copilot', -- Copilot
+
   require 'custom/plugins/catppuccin', -- Colorscheme
 
-  require 'custom/plugins/bufferline', -- Bufferline
+  --require 'custom/plugins/bufferline', -- Bufferline
 
   require 'custom/plugins/lualine', -- Statusline
 
-  require 'custom/plugins/markview', -- Markdown preview
+  --require 'custom/plugins/markview', -- Markdown preview
 
-  require 'custom.plugins.snacks', -- Snacks
+  --require 'custom.plugins.snacks', -- Snacks
 
   require 'custom/plugins/noice', -- replacement ui for messages, cmdline, and popup menu
 
